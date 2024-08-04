@@ -1,0 +1,13 @@
+<div class="product-tile">
+  <app-product-image [imageUrl]="product.image"></app-product-image>
+  <div class="product-name">{{ product.title }}</div>
+  <div class="product-actions">
+    <app-add-to-cart-button></app-add-to-cart-button>
+    <button>Delete</button>
+    <button>Edit</button>
+  </div>
+  <div class="product-rating-price">
+    <div class="product-rating">{{ product.rating.rate }}★</div>
+    <div class="product-price">${{ product.price }}</div>
+  </div>
+</div>

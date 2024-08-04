@@ -1,0 +1,7 @@
+<p *ngIf="loading" class="text-center text-lg">Loading...</p>
+<div class="product-tiles">
+  <app-product
+    *ngFor="let product of productService.products; let i = index"
+    [product]="product">
+  </app-product>
+</div>

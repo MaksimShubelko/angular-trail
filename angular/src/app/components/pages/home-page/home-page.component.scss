@@ -1,0 +1,8 @@
+.product-tiles {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px 30px;
+  padding: 10px;
+  grid-auto-rows: 500px;
+  grid-auto-columns: 500px;
+}
